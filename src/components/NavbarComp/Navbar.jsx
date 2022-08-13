@@ -30,7 +30,7 @@ const Navbar = () => {
         <input type="text" placeholder='search foods' className='bg-transparent p-2 w-full focus:outline-none'/>
       </div>
       {/* cart button */}
-      <button className='bg-black text-white hidden md:flex items-center py-2 rounded-full'>
+      <button className='bg-[#F97316]/80 text-white hidden md:flex items-center py-2 rounded-full border-none'>
         <BsFillCartFill size={20} className='mr-2'/> Cart
       </button>
       {/* mobile menu */}
